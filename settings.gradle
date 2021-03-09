@@ -1,0 +1,4 @@
+include ':plugin_a'
+include ':lib_plugin'
+include ':app'
+rootProject.name = "DynamicLoadApkPluginDemo"

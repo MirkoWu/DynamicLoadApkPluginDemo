@@ -1,0 +1,31 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mirkowu.lib_plugin">
+
+    <application>
+
+        <activity android:name=".DLProxyActivity">
+            <intent-filter>
+                <action android:name="com.ryg.dynamicload.proxy.activity.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DLProxyFragmentActivity">
+            <intent-filter>
+                <action android:name="com.ryg.dynamicload.proxy.fragmentactivity.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".DLProxyService">
+
+            <!--
+            <intent-filter >
+                <action android:name="com.ryg.dynamicload.proxy.service.action"/>
+            </intent-filter>
+            -->
+        </service>
+    </application>
+
+</manifest>
